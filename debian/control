@@ -1,0 +1,17 @@
+Source: erlang-sqlite3
+Maintainer: Mathias Ertl <mati@jabber.at>
+Section: libs
+Priority: optional
+Standards-Version: 3.9.6
+Homepage: https://github.com/alexeyr/erlang-sqlite3
+Build-Depends: debhelper (>= 9), dpkg-dev (>= 1.16.1~), erlang-dev (>= 1:13.b.4),
+ dh-rebar
+VCS-Git: https://github.com/jabber-at/erlang-sqlite3.git
+VCS-Browser: https://github.com/jabber-at/erlang-sqlite3
+
+Package: erlang-sqlite3
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends},
+ erlang-base-hipe | erlang-base | ${erlang-abi:Depends}, ${erlang:Depends}
+Description: Erlang wrapper for SQLite3
+ This library allows you to work with SQLite3 databases from Erlang.

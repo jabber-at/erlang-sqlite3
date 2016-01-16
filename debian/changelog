@@ -1,0 +1,5 @@
+erlang-sqlite3 (0.2015.12.21-0.1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Mathias Ertl <mati@jabber.at>  Sat, 16 Jan 2016 11:40:39 +0100
