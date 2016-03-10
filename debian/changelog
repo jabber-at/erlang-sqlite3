@@ -1,6 +1,7 @@
 erlang-sqlite3 (1.1.15-0.1) unstable; urgency=low
 
   * New upstream release.
+  * Use upstream tag format.
 
  -- Mathias Ertl <mati@jabber.at>  Thu, 10 Mar 2016 11:37:35 +0100
 
