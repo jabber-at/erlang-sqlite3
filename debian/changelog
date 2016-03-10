@@ -1,3 +1,9 @@
+erlang-sqlite3 (1.1.15-0.1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Mathias Ertl <mati@jabber.at>  Thu, 10 Mar 2016 11:37:35 +0100
+
 erlang-sqlite3 (0.2015.12.21-0.1) unstable; urgency=low
 
   * Initial release.
