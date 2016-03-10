@@ -13,5 +13,6 @@ Package: erlang-sqlite3
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
  erlang-base-hipe | erlang-base | ${erlang-abi:Depends}, ${erlang:Depends}
+Conflicts: ejabberd (<< 1:16.02)
 Description: Erlang wrapper for SQLite3
  This library allows you to work with SQLite3 databases from Erlang.

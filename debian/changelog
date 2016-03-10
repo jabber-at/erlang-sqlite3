@@ -1,7 +1,9 @@
 erlang-sqlite3 (1.1.5-0.1) unstable; urgency=low
 
   * New upstream release.
+  * Use new upstream repository.
   * Use upstream tag format.
+  * Conflicts: ejabberd (<< 1:16.02)
 
  -- Mathias Ertl <mati@jabber.at>  Thu, 10 Mar 2016 11:37:35 +0100
 
