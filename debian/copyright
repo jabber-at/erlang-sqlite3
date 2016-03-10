@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: erlang-sqlite3
-Source: https://github.com/alexeyr/erlang-sqlite3
+Upstream-Name: Erlang wrapper for SQLite3
+Source: https://github.com/processone/erlang-sqlite3
 Upstream-Contact: Alexey Romanov <alexey.v.romanov@gmail.com>
 
 Files: *
