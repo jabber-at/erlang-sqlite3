@@ -1,18 +1,20 @@
-Source: erlang-sqlite3
-Maintainer: Mathias Ertl <mati@jabber.at>
-Section: libs
+Source: erlang-p1-sqlite3
 Priority: optional
-Standards-Version: 3.9.6
-Build-Depends: debhelper (>= 9), dpkg-dev (>= 1.16.1~), erlang-dev (>= 1:13.b.4),
- dh-rebar, erlang-eunit, erlang-syntax-tools, libsqlite3-dev
+Maintainer: Mathias Ertl <mati@jabber.at>
+Build-Depends: debhelper (>= 9), dh-rebar, rebar (>= 2.6.4-2), erlang-base, erlang-crypto, erlang-eunit, erlang-syntax-tools, libsqlite3-dev
+Standards-Version: 4.0.0
+Section: libs
 Homepage: https://github.com/processone/erlang-sqlite3
 VCS-Git: https://github.com/jabber-at/erlang-sqlite3.git
 VCS-Browser: https://github.com/jabber-at/erlang-sqlite3
 
-Package: erlang-sqlite3
+Package: erlang-p1-sqlite3
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends},
- erlang-base-hipe | erlang-base | ${erlang-abi:Depends}, ${erlang:Depends}
-Conflicts: ejabberd (<< 1:16.02)
-Description: Erlang wrapper for SQLite3
- This library allows you to work with SQLite3 databases from Erlang.
+Depends: ${shlibs:Depends}, ${misc:Depends}, erlang-base | ${erlang-abi:Depends},
+         ${erlang:Depends}
+Breaks: erlang-sqlite3
+Replaces: erlang-sqlite3
+Description: SQLite3 wrapper for Erlang applications
+ This is an SQLite3 library for Erlang. It is designed to make it easy
+ to write Erlang applications that use SQLite3.
+ ejabberd for example uses it as its sqlite driver.

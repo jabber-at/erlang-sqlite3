@@ -6,6 +6,7 @@ erlang-p1-sqlite3 (1.1.5-0.2) unstable; urgency=low
     * Corrected install path for includes.
     * Enable hardening.
     * Add README.source and watch file.
+    * Updated Standards-Version: 4.0.0 (no changes needed)
 
   * Remove unused variables in debian/dh-rebar.conf.
 
