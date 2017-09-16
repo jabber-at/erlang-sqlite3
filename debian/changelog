@@ -2,7 +2,9 @@ erlang-p1-sqlite3 (1.1.5-0.2) unstable; urgency=low
 
   * Backport some changes in the upstream source package:
 
-    * Rename source package to erlang-p1-sqlite3
+    * Rename source package to erlang-p1-sqlite3.
+    * Corrected install path for includes.
+    * Enable hardening.
 
   * Remove unused variables in debian/dh-rebar.conf.
 
