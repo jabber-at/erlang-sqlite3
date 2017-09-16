@@ -1,0 +1,14 @@
+erlang-p1-sqlite3 for Debian
+----------------------------
+
+This package uses a DFSG clean tarball, the difference being that the
+upstream tarball includes source code from sqlite3 that isn't needed here
+and has been removed. The libsqlite3-dev package is used instead.
+
+The removed files are:
+ sqlite3_amalgamation/shell.c
+ sqlite3_amalgamation/sqlite3.h
+ sqlite3_amalgamation/sqlite3ext.h
+ sqlite3_amalgamation/sqlite3.c
+
+-- Philipp Huebner <debalance@debian.org>  Fri, 24 Jun 2016 20:54:35 +0200
