@@ -1,0 +1,3 @@
+version=3
+opts="filenamemangle=s/.*\/v?(\d\S*)\.tar\.gz/erlang-p1-sqlite3_$1.tar.gz/,dversionmangle=s/\~(debian|dfsg|ds|deb)(\d+)?$//" \
+  https://github.com/processone/erlang-sqlite3/releases .*/v?(\d\S*)\.tar\.gz
