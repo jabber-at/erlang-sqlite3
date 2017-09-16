@@ -1,7 +1,7 @@
 Source: erlang-p1-sqlite3
 Priority: optional
 Maintainer: Mathias Ertl <mati@jabber.at>
-Build-Depends: debhelper (>= 9), dh-rebar, rebar (>= 2.6.4-2), erlang-base, erlang-crypto, erlang-eunit, erlang-syntax-tools, libsqlite3-dev
+Build-Depends: debhelper (>= 9), dh-rebar, rebar (>= 2.6.0), erlang-base, erlang-crypto, erlang-eunit, erlang-syntax-tools, libsqlite3-dev
 Standards-Version: 4.0.0
 Section: libs
 Homepage: https://github.com/processone/erlang-sqlite3
